@@ -1,0 +1,39 @@
+
+
+/* Border
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.divBorder{
+    border-top: 2px solid rgb(235, 235, 235);
+    padding: 10px;
+   }
+
+
+
+
+
+h1 { font-size: 3.0rem; line-height: 1.0;  letter-spacing: -.1rem; margin-bottom: 0.6rem; margin-top: 0.2rem }
+
+
+
+
+/* Calendar date start and end */
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+    background: rgb(41, 56, 55) !important;
+    border: 1px double rgb(41, 56, 55) !important;
+    color: rgb(251, 251, 252) !important;
+  }
+  
+  /* Calendar in between start and end date */
+  .CalendarDay__selected_span {
+      background: rgb(93, 113, 120) !important;
+      border: 1px double rgb(93, 113, 120) !important;
+      color: rgb(251, 251, 252) !important;
+  }
+  
+  .CalendarDay__selected_span:active, .CalendarDay__selected_span:hover {
+      background: rgb(57, 81, 85) !important;
+      border: 1px double rgb(57, 81, 85) !important;
+      color: rgb(251, 251, 252) !important;
+  }
