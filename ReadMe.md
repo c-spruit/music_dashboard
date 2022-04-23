@@ -2,7 +2,7 @@
 
 **Intro & Aims**
 
-This project aims to help music lovers find songs and DJs they are interested in. By applying filters users can create a specific selection of songs, view the results via various graphics and create a Spotify playlist.   
+This project aims to help music lovers find songs they are interested in via an intercative dashboard. By applying filters users can create a specific selection of songs, view the results via various graphics and create a Spotify playlist.   
 
 **Data**
 
