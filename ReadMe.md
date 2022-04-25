@@ -12,7 +12,7 @@ A database of tracks has been created by scraping tracklists from various online
 
 **The Dashboard**
 
-Currently users can view their selection of songs via a WordCloud graphic, histograms for select features and a table listing a random sample of 20 the selected tracks. The dashboard has been created using Dash and is hosted using Heroku. 
+Currently users can view their selection of songs via a WordCloud graphic, histograms for select features and a table listing a random sample of 20 of the selected tracks. The dashboard has been created using Dash and is hosted using Heroku. 
 
 **Future Features**
 
