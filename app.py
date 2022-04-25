@@ -1,4 +1,5 @@
 # import
+from re import sub
 from dash import Dash, dash_table
 import pandas as pd
 import sqlite3
@@ -468,10 +469,13 @@ def update_dashboard(radio_show,
 
     df_mask = df[np.logical_and.reduce(masks_output)]
 
+    # remove duplicates (songs played on multiple different shows)
+    # filter the mask
+
     # highlight stats
-    total_num = df.shape[0]
-    selected_num = df_mask.shape[0]
-    remaining = total_num-selected_num
+    #total_num = df.shape[0]
+    selected_num = df_mask.spotify_uri.unique().shape[0]
+    #remaining = total_num-selected_num
 
     def num2str(n, text):
         '''
@@ -576,6 +580,9 @@ def update_dashboard(radio_show,
     else:
         # can't use .sample if selections < limit so use .head
         selected_tracks = df_mask.head(track_limit)
+
+    # drop duplicat tracks
+    selected_tracks = selected_tracks.drop_duplicates(subset=['spotify_uri'])
 
     selected_tracks_table = selected_tracks[[
         'track', 'artist', 'spotify_album', 'duration', 'release_year']].to_dict('records')
