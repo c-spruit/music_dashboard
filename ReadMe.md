@@ -4,11 +4,11 @@
 
 This project aims to help music lovers find songs they are interested in via an interactive dashboard. By applying filters users can create a specific selection of songs, view the results via various graphics and create a Spotify playlist.   
 
-View the dashbaord: https://music-dashi.herokuapp.com/
+View the dashboard: https://music-dashi.herokuapp.com/
 
 **Data**
 
-A database of tracks has been created by scraping tracklists from various online sources.  
+A database of tracks has been created by scraping tracklists from various online sources and querying the Spotify API.  
 
 **The Dashboard**
 
