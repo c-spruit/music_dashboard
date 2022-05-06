@@ -37,3 +37,16 @@ h1 { font-size: 3.0rem; line-height: 1.0;  letter-spacing: -.1rem; margin-bottom
       border: 1px double rgb(57, 81, 85) !important;
       color: rgb(251, 251, 252) !important;
   }
+  
+  .DateRangePickerInput {
+    Width: 320px;
+  }
+
+  .DateInput_input, .DateInput_input_1 {
+    font-size: inherit ! important;
+    color: inherit !important;
+    text-align: center;
+    Height: 35px !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    }
